@@ -1,0 +1,12 @@
+server: 
+  port: 8090
+spring: 
+  application:
+    name: SpringRocketmq
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  producergroup: rocketmqProducer
+  namesrvaddr: 192.168.0.1:9876;192.168.0.2:9876
